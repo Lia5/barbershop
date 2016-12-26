@@ -2,12 +2,14 @@
 <html lang="ru">
   <head>
     <meta charset="UTF-8">
-    <title>Барбеpшоп Бородинский</title>
+    <title>Барбешоп Бородинский</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&amp;subset=cyrillic" rel="stylesheet">
   </head>
   <body>
-    <header class="main-container">
-      <div class="container">
+    <header class="main-header">
+      <div class="container clearfix">
         <nav class="main-navigation">
           <ul>
             <li>
@@ -34,12 +36,12 @@
     </header>
     <main class="container">
       <div class="index-logo">
-        <img src="img/index-logo.png" width="368" height="204" alt="Барбершоп &laquo;Бородинский&raquo;">
-      </div>
-      <section class="features">
-        <div class="features-item">
+        <img src="img/index-logo.png" width="368" height="204" alt="Барбершоп "Бородинский"">
+      </div> 
+      <section class="features clearfix">
+       <div class="features-item">
           <b class="features-name">Быстро</b>
-          <p>Мы делаем свою работу быстро! Два часа пролетят незаметно и вы - счастливый обладатель тильной стрижки-минутки!</p>
+          <p>Мы делаем свою работу быстро! Два часа пролетят незаметно и вы - счастливый обладатель тильной стрижки-минутки!</p> 
         </div>
         <div class="features-item">
           <b class="features-name">Круто</b>
@@ -47,19 +49,19 @@
         </div>
         <div class="features-item">
           <b class="features-name">Дорого</b>
-          <p>Наши мастера - профессионалы своего дела и не могут стоить дешево. К тому же, разве цена не дает определенный статус?</p>
-        </div>        
+          <p>Наши мастера - профессионалы своего дела и не могут стоить дешево. К тому же, разве цена не дает определенный статус?</p>  
+        </div>      
       </section>
-      <div class="index-content">
-        <div class="index-content-left">
-          <h2 class="index-content-title">Новости</h2>
-          <ul>
+      <div class="index-content clearfix">
+       <div class="index-content-left">
+           <h2 class="index-content-title">Новости</h2>
+          <ul class="news-preview">
             <li>
               <p>Нам наконец завезли Ягермейстер! Теперь вы можете пропустить стаканчик во время стрижки</p>
               <time datetime="2016-01-11">11 января</time>
             </li>
             <li>
-              <p>В нашей команде пополнение, Борис &laquo;Бритва&raquo; Стригунец, обладатель множества титулов и наград пополнил наши стройные ряды</p>
+              <p>В нашей команде пополнение, Борис "Бритва" Стригунец, обладатель множества титулов и наград пополнил наши стройные ряды</p>
               <time datetime="2016-01-18">18 января</time>
             </li>
           </ul>
@@ -69,14 +71,14 @@
           <h2 class="index-content-title">Фотогалерея</h2>
           <div class="gallery">
             <figure class="gallery-content">
-              <img src="img/photo-1.jpg" width="286" height="164" alt="">
+              <img src="img/photo-1/jpg" width="286" heigh="164" alt="">
             </figure>
-            <button class="btn gallery-prev">Назад</button>
+            <button class="btn gallery-prev" disabled>Назад</button>
             <button class="btn gallery-next">Вперёд</button>
           </div>
         </div>
       </div>
-      <div class="index-content">
+      <div class="index-content clearfix">
         <div class="index-content-left">
           <h2 class="index-content-title">Контактная информация</h2>
           <p>
@@ -91,7 +93,7 @@
           </p>
           <a class="btn" href="#">Как проехать</a>
           <a class="btn" href="#">Обратная связь</a>
-        </div>
+        </div> 
         <div class="index-content-right">
           <h2 class="index-content-title">Записаться</h2>
           <p>Укажите желаемую дату и время и мы свяжемся с вами для подтверждения брони</p>
@@ -105,8 +107,8 @@
         </div>
       </div>
     </main>
-    <footer class="main-footer">
-      <div class="container">
+  <footer class="main-footer">
+      <div class="container clearfix">
         <section class="footer-contacts">
           Барбершоп "Бородинский"<br>
           Адрес: г. Санкт-Петербург, Б. Конюшенная, д.19/8<br>
@@ -121,9 +123,9 @@
         </section>
         <section class="footer-copyright">
           <p>Разработано:</p>
-          <a class="btn" href="https://htmlacademy.ru">HTML Academy</a>
+          <a class="btn" href="https:htmlacademy.ru">HTML Academy</a>
         </section>
-      </div>
+      </div>-->
     </footer>
   </body>
 </html>
